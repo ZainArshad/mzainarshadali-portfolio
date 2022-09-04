@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import ExtendedSidebarLayout from 'src/layouts/ExtendedSidebarLayout';
 import { Guest } from 'src/components/Guest';
-import EducationPageComponent from 'src/content/Educationpage';
+import EducationPageComponent from 'src/content/EducationPage';
 
 function EducationReports() {
   return (

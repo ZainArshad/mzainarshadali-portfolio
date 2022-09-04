@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import ExtendedSidebarLayout from 'src/layouts/ExtendedSidebarLayout';
 import { Guest } from 'src/components/Guest';
-import HomePageComponent from 'src/content/Homepage';
+import HomePageComponent from 'src/content/HomePage';
 
 function HomeReports() {
   return (

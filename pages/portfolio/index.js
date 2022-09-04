@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import ExtendedSidebarLayout from 'src/layouts/ExtendedSidebarLayout';
 import { Guest } from 'src/components/Guest';
-import PortFolioPageComponent from 'src/content/PortFoliopage';
+import PortFolioPageComponent from 'src/content/PortFolioPage';
 
 function PortFolioReports() {
   return (
