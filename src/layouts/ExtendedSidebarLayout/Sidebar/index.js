@@ -84,7 +84,7 @@ function Sidebar() {
         }}
       >
         <Scrollbar>
-          <ThemeSettings></ThemeSettings>
+          {/* <ThemeSettings></ThemeSettings> */}
           <SidebarTopSection />
           <Divider
             sx={{
@@ -161,7 +161,7 @@ function Sidebar() {
           }}
         >
           <Scrollbar>
-            <ThemeSettings></ThemeSettings>
+            {/* <ThemeSettings></ThemeSettings> */}
             <SidebarTopSection />
             <Divider
               sx={{
