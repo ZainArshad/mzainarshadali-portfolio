@@ -4,7 +4,7 @@ import '@mui/lab/themeAugmentation';
 // import i18n from 'src/i18n/i18n';
 
 const themeColors = {
-  primary: '#5569ff',
+  primary: 'rgb(255, 180, 0)',
   secondary: '#000000',
   success: '#57CA22',
   warning: '#FFA319',

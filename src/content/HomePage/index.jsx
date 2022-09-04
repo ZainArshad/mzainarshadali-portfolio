@@ -23,6 +23,7 @@ import {
   Graticule
 } from 'react-simple-maps';
 import Carousel from 'react-material-ui-carousel';
+import Typewriter from 'typewriter-effect';
 
 function CarouselSlider(props) {
   var items = [
@@ -145,7 +146,7 @@ export default function HomePageComponent() {
     <>
       {/* <Scrollbar> */}
       <Grid container sx={{ overflowX: 'hidden' }}>
-        <Grid item md={6}>
+        <Grid item md={12}>
           <Box
             sx={{
               display: 'flex',
@@ -162,18 +163,29 @@ export default function HomePageComponent() {
                 fontFamily: 'Inter, sans-serif !important'
               }}
             >
-              I’m Muhammad Zain Arshad
+              <Typewriter
+                options={{
+                  strings: [
+                    'Hello Welcome :)',
+                    'I’m Muhammad Zain Arshad',
+                    'I’m Front – End and Data Visualization Developer'
+                  ],
+                  autoStart: true,
+                  loop: true
+                }}
+              />
+              {/* I’m Muhammad Zain Arshad
               <br />
               <span style={{ color: 'rgb(255, 180, 0)' }}>
                 Font – End and Data Visualization
               </span>{' '}
-              Developer
+              Developer */}
             </Typography>
           </Box>
           <Box
             sx={{
               display: 'flex',
-              justifyContent: 'start',
+              justifyContent: 'center',
               width: '100%',
               m: 2
             }}
@@ -191,21 +203,29 @@ export default function HomePageComponent() {
               Seller at <span style={{ color: 'rgb(28 185 111)' }}>Fiverr</span>
             </Typography>
           </Box>
-          <Button
-            disabled
-            // size={{ md: 'large', sm: 'medium', xs: 'small' }}
+          <Box
             sx={{
-              background: 'rgb(255, 180, 0)',
-              color: `${theme.sidebar.textColor} !important`,
-              width: '125px',
-              pt: 2.1,
-              pb: 2.1,
-              fontSize: '21px',
-              ml: 2
+              display: 'flex',
+              justifyContent: 'center',
+              width: '100%',
+              m: 2
             }}
           >
-            Hire Me
-          </Button>
+            <Button
+              disabled
+              sx={{
+                background: 'rgb(255, 180, 0)',
+                color: `${theme.sidebar.textColor} !important`,
+                width: '125px',
+                pt: 2.1,
+                pb: 2.1,
+                fontSize: '21px',
+                ml: 2
+              }}
+            >
+              Hire Me
+            </Button>
+          </Box>
         </Grid>
       </Grid>
       <Box sx={{ m: 2.5 }}>
