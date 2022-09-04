@@ -168,18 +168,12 @@ export default function HomePageComponent() {
                   strings: [
                     'Hello Welcome :)',
                     'I’m Muhammad Zain Arshad',
-                    'I’m Front – End and Data Visualization Developer'
+                    'I’m Front – End, MERN Stack and Data Visualization Developer'
                   ],
                   autoStart: true,
                   loop: true
                 }}
               />
-              {/* I’m Muhammad Zain Arshad
-              <br />
-              <span style={{ color: 'rgb(255, 180, 0)' }}>
-                Font – End and Data Visualization
-              </span>{' '}
-              Developer */}
             </Typography>
           </Box>
           <Box
