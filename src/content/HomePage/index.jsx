@@ -23,6 +23,7 @@ import {
   Graticule
 } from 'react-simple-maps';
 import Carousel from 'react-material-ui-carousel';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Typewriter from 'typewriter-effect';
 
 function CarouselSlider(props) {
@@ -139,11 +140,18 @@ export default function HomePageComponent() {
     { id: 'Colombia', value: 1 },
     { id: 'Singapore', value: 1 },
     { id: 'Spain', value: 1 },
-    { id: 'Italy', value: 1 }
+    { id: 'Italy', value: 1 },
+    { id: 'Romania', value: 1},
   ];
 
   return (
     <>
+    <MessengerCustomerChat
+				pageId={101075632259387}
+				appId={1045264296871117}
+				// version={"version of your app like 12.0"}
+				xfbml={true}
+			/>
       {/* <Scrollbar> */}
       <Grid container sx={{ overflowX: 'hidden' }}>
         <Grid item md={12}>
