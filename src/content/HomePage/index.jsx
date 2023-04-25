@@ -142,6 +142,11 @@ export default function HomePageComponent() {
     { id: 'Spain', value: 1 },
     { id: 'Italy', value: 1 },
     { id: 'Romania', value: 1},
+    {id:'China', value: 1 },
+    {'South Africa',1},
+    {'Ireland',1},
+    {'Luxembourg',1},
+    {'Israel',1}
   ];
 
   return (
